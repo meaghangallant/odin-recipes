@@ -1,7 +1,71 @@
-* {
+body {
   background-color: MintCream;
+  margin: 0;
+  padding: 0;
 }
+
+header {
+  background-color: SteelBlue;
+  width: 100%;
+  display: fixed;
+  top: 0px; 
+  padding: 20px;
+}
+
+h1 {
+  color: white;
+  font-style: italic;
+  font-size: 48px;
+  font-weight: normal;
+  text-align: center;
+}
+
+h2 {
+  color: SteelBlue;
+  font-family: sans-serif;
+  text-transform: lowercase;
+  letter-spacing: .1em;
+  font-weight: normal;
+  font-size: 32px;
+  padding-left: 20px;
+}
+
 
 p, a {
   font-family: sans-serif;
+}
+
+a {
+  color: SteelBlue;
+}
+
+a:hover, a:visited:hover {
+  color: CadetBlue;
+}
+
+a:visited {
+  color: CornflowerBlue;
+  
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+img {
+  width: 60%;
+  height: 80%;
+  object-fit: cover;
+  display: block;
+  padding-bottom: 20px;
+  margin: auto;
+  border-radius: 20%;
+}
+
+.recipe {
+  text-align: center;
+  font-size: 28px;
+  width: 90%
 }
