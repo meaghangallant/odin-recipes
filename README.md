@@ -1,2 +1,2 @@
-# odin-recipes
-First Odin Project Project 
+# Odin Recipes
+First Project for the Odin Project Curriculum 
